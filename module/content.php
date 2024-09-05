@@ -1,31 +1,4 @@
-<style>
-    .card {
-        box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
-        display: flex;
-        flex-direction: column;
-        height: 97%;
-    }
-
-    .card-body {
-        flex-grow: 1;
-    }
-
-    .card-body ul {
-        padding-left: 20px;
-    }
-
-    .row {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .col-md-4 {
-        display: flex;
-    }
-</style>
-
 <body>
-
     <div class="container mt-5">
         <div class="jumbotron text-center">
             <h1 class="display-4">Welcome to Our Binus Order!</h1>
