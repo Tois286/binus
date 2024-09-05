@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e0e0e0;
+  font-family: sans-serif;
+}
+.tag {
+  text-align: end;
+}
+.container {
+  width: 100%;
+  height: 90%;
+  padding-top: 50px;
+  display: flex;
+}
+
+.invoice {
+  position: relative;
+  margin: 0 auto;
+  width: 700px;
+  background-color: #fff;
+}
+
+.invoice-top {
+  min-height: 120px;
+  border-bottom: 1px solid #eee;
+  padding: 30px;
+}
+
+.logo {
+  float: left;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+
+.info {
+  display: block;
+  float: left;
+  margin-left: 20px;
+}
+
+h2 {
+  font-size: 0.9em;
+}
+
+p {
+  font-size: 0.7em;
+  color: #666;
+  line-height: 1.2em;
+}
+
+.title {
+  font-size: 1.5em;
+}
+
+.title p {
+  text-align: right;
+  font-size: 15px;
+}
+
+.invoice-mid {
+  min-height: 120px;
+  border-bottom: 1px solid #eee;
+  padding: 30px;
+}
+
+.client-logo {
+  float: left;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+
+.project {
+  margin-left: 52%;
+}
+
+.invoice-bottom {
+  min-height: 1px solid #eee;
+  padding: 30px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-title {
+  padding: 5px;
+  background-color: #eee;
+}
+
+td {
+  padding: 5px 0 5px 15px;
+  border: 1px solid #eee;
+}
+
+.item {
+  width: 50%;
+}
+.service {
+  border: 1px solid #eee;
+}
+.item-text {
+  font-size: 0.9em;
+  justify-content: center;
+}
+.footer {
+  margin-top: 30px;
+}
+.footer .desk {
+  width: 70%;
+}
