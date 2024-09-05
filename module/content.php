@@ -1,16 +1,18 @@
-<body>
+<body style="background-color: #FFFFFF;">
     <div class="container mt-5">
-        <div class="jumbotron text-center">
-            <h1 class="display-4">Welcome to Our Binus Order!</h1>
-            <p class="lead">Discover the best products at unbeatable prices.</p>
-            <a class="btn btn-primary btn-lg" href="view/shop.php" role="button">Shop Now</a>
+        <div class="jumbotron">
+            <div class="text-left" style="color:white;">
+                <h2 class="display-4">Welcome to Our Binus Order!</h2>
+                <p class="lead">Discover the best products at unbeatable prices.</p>
+                <a class="btn btn-primary btn-lg" href="view/shop.php" role="button">Shop Now</a>
+            </div>
         </div>
 
         <div class="row">
             <!-- Product Card 1 -->
             <div class="col-md-4">
                 <div class="card mb-4">
-                    <img src="assets/binus/laptop.jpg" class="card-img-top" alt="Product 1">
+                    <img src="assets/binus/service.jpg" class="card-img-top" alt="Product 1">
                     <div class="card-body">
                         <h5 class="card-title">Binus (Bisnis Usaha Bagian A)</h5>
                         <p>Halo sobat danus☺👋🏻 Laptop kalian mengalami trouble? Atau hp kalian juga mengalami trouble? Langsung saja hubungi kami. Kami siap melayani:</p>
