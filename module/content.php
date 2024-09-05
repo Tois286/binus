@@ -3,8 +3,8 @@
         <div class="jumbotron">
             <div class="text-left" style="color:white;">
                 <h2 class="display-4">Welcome to Our Binus Order!</h2>
-                <p class="lead">Discover the best products at unbeatable prices.</p>
-                <a class="btn btn-primary btn-lg" href="view/shop.php" role="button">Shop Now</a>
+                <p class="lead">Find a laptop within your minimum budget and consult with experts here</p>
+                <a class="btn btn-primary btn-lg" href="view/shop.php" role="button">Consult Now</a>
             </div>
         </div>
 
