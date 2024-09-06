@@ -7,6 +7,13 @@ body {
   background-color: #e0e0e0;
   font-family: sans-serif;
 }
+
+.brand {
+  width: 100%;
+  min-width: 600px;
+  height: 500px;
+  justify-items: center;
+}
 .tag {
   text-align: end;
 }
@@ -34,7 +41,7 @@ body {
   float: left;
   height: 60px;
   width: 60px;
-  border-radius: 50%;
+  border-radius: 60%;
 }
 
 .info {
@@ -91,7 +98,7 @@ table {
 
 .table-title {
   padding: 5px;
-  background-color: #eee;
+  background-color: skyblue;
 }
 
 td {

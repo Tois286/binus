@@ -1,5 +1,4 @@
-<!-- HEADER  -->
-<?php include '../module/header.php' ?>
+<img class="brand" src="../assets/binus/IMG-20240902-WA0017.jpg" alt="head img">
 <!-- INVOICE  -->
  <link rel="stylesheet" href="../assets/style-invoice.css">
 
@@ -17,7 +16,7 @@
         </div>
 
         <div class="title">
-            <h2 class="tag">Invoice#2001</h2>
+            <h2 class="tag">Invoice #2001</h2>
             <p>Tanggal: September 05, 2024 <br>
         Jatuh tempo : September 10, 2024</p>
 
@@ -129,3 +128,5 @@
     </div>
 
  </div>
+<!-- JDN bootstrap -->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
