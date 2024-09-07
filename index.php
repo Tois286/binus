@@ -1,16 +1,19 @@
 <body>
-    <!-- Header -->
-    <?php include 'module/header.php' ?>
-
+    <div id="#">
+        <!-- Header -->
+        <?php include 'module/header.php' ?>
+    </div>
     <!-- Main Content -->
     <?php include 'module/content.php' ?>
 
-    <!-- Main About -->
-    <?php include 'view/about.php' ?>
-
+    <div id="about">
+        <!-- Main About -->
+        <?php include 'view/about.php' ?>
+    </div>
     <!-- Main Contact -->
-    <?php include 'view/contact.php' ?>
-
+    <div id="contact">
+        <?php include 'view/contact.php' ?>
+    </div>
     <!-- Footer -->
     <?php include 'module/footer.php' ?>
 </body>
