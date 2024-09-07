@@ -13,6 +13,22 @@ dengan nama databae (binus) sesuaikan atribute dengan invoice yang sudah di buat
 pelajari dan Implementasikan, QUERY INSERT Manual melalui PHPMyAdmin atau CMD (mariaDB).
 pelajari dan Implementasikan, QUERY READ dengan bahas pemprograman PHP untuk kebutuhan halaman invoice.php.
 
+database untuk Bagian column nomor antrian akan terrefresh setiap harinya (1x24), contohnya :
+aplikasi
+- sistem absensi
+- sistem quota
+
+format kode :
+- IN=(invoice) DO=(kode) 11=(TANGGAL) 001=(NOMOR URUT) => INDO11001 jika yang terpilih content Design
+- IN=(invoice) WO=(kode) 11=(TANGGAL) 001=(NOMOR URUT) => INWO11001 jika yang terpilih content Website
+
+
+databse untuk Bagian column nomor invoice akan mengawali huruf terdepan dari content order yang terpilih oleh custommer
+kode tersebut akan terus bertambah dengan auto increment contoh :
+
+- (DO001 hingga DO099) design
+- (WO001 hingga WO099) website 
+
 # Hadi (BackEnd) repair.php
 buat form Order dengan nama file ServiceOrder.php untuk inputan ke database.
 pelajari dan Implementasikan, QUERY INSERT dan gunakan form yang sudah di buat.
