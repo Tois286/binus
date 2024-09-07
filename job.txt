@@ -2,7 +2,7 @@
 arahkan seluruh button ke halaman yang akan di tuju
 pada halaman header.php dan content.php.
 
-# randi (UI/UX)  service.php dan shope.php
+# randi (UI/UX)  service.php dan shope.php 
 buat halaman shop.php untuk jual laptop
 pastikan tidak keluar dari konsep (pewarnaan pada tampilan),
 yang sudah ada yaitu index.php
@@ -18,3 +18,4 @@ buat form Order dengan nama file ServiceOrder.php untuk inputan ke database.
 pelajari dan Implementasikan, QUERY INSERT dan gunakan form yang sudah di buat.
 
 deadline keseluruhan Team 10 September 2024.
+

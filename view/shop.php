@@ -1,13 +1,14 @@
-<head>
-<link rel="stylesheet" href="assets/css/style.css">
-</head>
+<!-- <head>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head> -->
+
 <body style="background-color: #FFFFFF;">
 
     <!-- Header -->
-        <?php include '../module/header.php' ?>
-
+    <?php include '../module/header.php' ?>
+    <br>
     <!-- Content -->
-     <!-- Banner Atas -->
+    <!-- Banner Atas -->
     <div class="container mt-5">
         <div class="jumbotron" style="background-image: url('../assets/binus/bg2.png'); background-size: cover; background-position: center;">
             <div class="text-left" style="color:white;">
@@ -17,15 +18,15 @@
             </div>
         </div>
 
-     <!-- Category -->   
+        <!-- Category -->
         <div class="container p-4">
             <div class="text-center p-3">
                 <h1>Category</h1>
             </div>
         </div>
-     
-    <div class="row">    
-        <!-- Product Card 1 -->
+
+        <div class="row">
+            <!-- Product Card 1 -->
             <div class="col-md-4">
                 <div class="card mb-4">
                     <a href="https://www.google.com">
@@ -34,26 +35,26 @@
                 </div>
             </div>
 
-        <!-- Product Card 2 -->
-        <div class="col-md-4">
+            <!-- Product Card 2 -->
+            <div class="col-md-4">
                 <div class="card mb-4">
                     <a href="https://www.google.com">
                         <img src="../assets/binus/dell.png" class="card-img-top" alt="Product 1">
                     </a>
                 </div>
             </div>
-        
-        <!-- Product Card 3 -->
-        <div class="col-md-4">
+
+            <!-- Product Card 3 -->
+            <div class="col-md-4">
                 <div class="card mb-4">
                     <a href="https://www.google.com">
                         <img src="../assets/binus/hp.jpg" class="card-img-top" alt="Product 1">
                     </a>
                 </div>
             </div>
-        
-         <!-- Product Card 4 -->
-         <div class="col-md-4">
+
+            <!-- Product Card 4 -->
+            <div class="col-md-4">
                 <div class="card mb-4">
                     <a href="https://www.google.com">
                         <img src="../assets/binus/acer.png" class="card-img-top" alt="Product 1">
@@ -61,8 +62,8 @@
                 </div>
             </div>
 
-        <!-- Product Card 5 -->
-        <div class="col-md-4">
+            <!-- Product Card 5 -->
+            <div class="col-md-4">
                 <div class="card mb-4">
                     <a href="https://www.google.com">
                         <img src="../assets/binus/lenovo.png" class="card-img-top" alt="Product 1">
@@ -70,8 +71,8 @@
                 </div>
             </div>
 
-        <!-- Product Card 6 -->
-        <div class="col-md-4">
+            <!-- Product Card 6 -->
+            <div class="col-md-4">
                 <div class="card mb-4">
                     <a href="https://www.google.com">
                         <img src="../assets/binus/asus.png" class="card-img-top" alt="Product 1">
@@ -79,15 +80,15 @@
                 </div>
             </div>
 
-        <!-- Product Card 7 -->
-        <div class="col-md-4">
+            <!-- Product Card 7 -->
+            <div class="col-md-4">
                 <div class="card mb-4">
                     <a href="https://www.google.com">
                         <img src="../assets/binus/infinix.png" class="card-img-top" alt="Product 1">
                     </a>
                 </div>
             </div>
-    </div>
-    <!-- Footer -->
+        </div>
+        <!-- Footer -->
         <?php include '../module/footer.php' ?>
 </body>
