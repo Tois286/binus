@@ -1,6 +1,10 @@
-# nisa (UX) index.php
+# nisa (UX) index.php (tahap 1)
 arahkan seluruh button ke halaman yang akan di tuju
 pada halaman header.php dan content.php.
+
+# nisa (FrontEnd) index.php (tapah 2)
+pindahkan content sosial media (ig,youtube,tiktok, wa dan wa saluran)
+ke content Abaout us Tempatkan di sebelah kanan dan atur tampilan nya agar menarik.
 
 # randi (UI/UX)  service.php dan shope.php 
 buat halaman shop.php untuk jual laptop
@@ -12,17 +16,16 @@ yang sudah ada yaitu index.php
 buat form Order dengan nama file ServiceOrder.php untuk inputan ke database.
 pelajari dan Implementasikan, QUERY INSERT dan gunakan form yang sudah di buat.
 
-# Hadi (FrontEnd, BackEnd) repair.php (Tahap 2)
-
-buat form Order dengan nama file ServiceOrder.php untuk inputan ke database.
-pelajari dan Implementasikan, QUERY INSERT dan gunakan form yang sudah di buat.
-
+# Hadi (Tahap 2) Revisi FrontEnd repair.php
 FrontEnd repair.php [complate]. namun Tolong ikuti revisi di bawah ini :
 
 revisi tampilan :
 form input berisi kebutuhan custommer yang ada dimenu jasa pada file README.md
 radius pada card terlalu banyak cukup gunakan 2px atau 5px saja
 form input jenis barang layanan yang di pilih : laptop, komputer, CPU dan latop.
+
+note : 
+QUERY INSERT dan gunakan form yang sudah di buat. (jangan lupa).
 
 
 deadline keseluruhan Team 10 September 2024.
