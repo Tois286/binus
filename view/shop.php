@@ -25,13 +25,13 @@
         <div class="form-container" style="background: url('../assets/binus/shopbg.jpg') no-repeat center center;">
             <h1 class="form-title">Contact Us</h1>
             <form id="contact-form" class="contact-form">
-                <label for="name" class="form-label">Name:</label>
+                <label for="name" class="form-label">Nama Lengkap:</label>
                 <input type="text" id="name" name="name" class="form-input" required>
 
                 <label for="email" class="form-label">Email:</label>
                 <input type="email" id="email" name="email" class="form-input" required>
 
-                <label for="message" class="form-label">Message:</label>
+                <label for="message" class="form-label">Jelaskan Laptop Seperti Apa Yang Anda Cari:</label>
                 <textarea id="message" name="message" class="form-textarea" rows="4" required></textarea>
 
                 <button type="submit" class="form-button">Send</button>
