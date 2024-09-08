@@ -21,133 +21,216 @@
  .col-md-4 {
      display: flex;
  }
-h2.display-4 {
-    font-size: 3rem;
-    /* Sesuaikan ukuran font pada layar besar */
-}
 
-.jumbotron {
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
-    background-image: url('../binus/bg2.png');
-    /* Ganti dengan path gambar */
-    background-size: cover;
-    /* Memastikan gambar menutupi seluruh area */
-    background-position: center;
-    /* Menjaga gambar tetap di tengah */
-    color: white;
-    /* Jika teksnya tidak terlihat, ubah warnanya */
-    padding: 50px 20px;
-    /* Padding untuk ruang yang konsisten di dalam jumbotron */
-    text-align: left;
-    /* Agar teks selalu berada di tengah */
-}
+ h2.display-4 {
+     font-size: 3rem;
+     /* Sesuaikan ukuran font pada layar besar */
+ }
 
-/* Media queries untuk membuat elemen lebih responsif */
-@media (max-width: 1200px) {
-    h2.display-4 {
-        font-size: 2.5rem;
-    }
-}
+ .jumbotron {
+     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+     background-image: url('../binus/bg2.png');
+     /* Ganti dengan path gambar */
+     background-size: cover;
+     /* Memastikan gambar menutupi seluruh area */
+     background-position: center;
+     /* Menjaga gambar tetap di tengah */
+     color: white;
+     /* Jika teksnya tidak terlihat, ubah warnanya */
+     padding: 50px 20px;
+     /* Padding untuk ruang yang konsisten di dalam jumbotron */
+     text-align: left;
+     /* Agar teks selalu berada di tengah */
+ }
 
-@media (max-width: 992px) {
-    h2.display-4 {
-        font-size: 2rem;
-    }
+ /* Media queries untuk membuat elemen lebih responsif */
+ @media (max-width: 1200px) {
+     h2.display-4 {
+         font-size: 2.5rem;
+     }
+ }
 
-    .jumbotron {
-        padding: 40px 15px;
-    }
-}
+ @media (max-width: 992px) {
+     h2.display-4 {
+         font-size: 2rem;
+     }
 
-@media (max-width: 768px) {
-    h2.display-4 {
-        font-size: 1.8rem;
-    }
+     .jumbotron {
+         padding: 40px 15px;
+     }
+ }
 
-    .jumbotron {
-        padding: 30px 10px;
-        background-size: cover;
-        /* Gambar tetap menyesuaikan */
-    }
-}
+ @media (max-width: 768px) {
+     h2.display-4 {
+         font-size: 1.8rem;
+     }
 
-@media (max-width: 576px) {
-    h2.display-4 {
-        font-size: 1.5rem;
-    }
+     .jumbotron {
+         padding: 30px 10px;
+         background-size: cover;
+         /* Gambar tetap menyesuaikan */
+     }
+ }
 
-    .jumbotron {
-        padding: 20px 5px;
-    }
-}
+ @media (max-width: 576px) {
+     h2.display-4 {
+         font-size: 1.5rem;
+     }
 
-/* Styling umum untuk header */
-header {
-    padding-top: 20px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Tambah bayangan untuk efek elegan */
-}
+     .jumbotron {
+         padding: 20px 5px;
+     }
+ }
 
-/* Navbar styling */
-.navbar {
-    padding: 10px 20px; /* Spasi di sekitar navbar */
-}
+ /* Styling umum untuk header */
+ header {
+     padding-top: 20px;
+     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+     /* Tambah bayangan untuk efek elegan */
+ }
 
-.navbar-brand {
-    font-size: 1.8rem; /* Atur ukuran teks brand */
-    font-weight: bold;
-    color: #0056b3; /* Warna brand */
-    text-transform: uppercase; /* Ubah teks menjadi uppercase */
-}
+ /* Navbar styling */
+ .navbar {
+     padding: 10px 20px;
+     /* Spasi di sekitar navbar */
+ }
 
-.navbar-brand:hover {
-    color: #004080; /* Warna saat hover */
-}
+ .navbar-brand {
+     font-size: 1.8rem;
+     /* Atur ukuran teks brand */
+     font-weight: bold;
+     color: #0056b3;
+     /* Warna brand */
+     text-transform: uppercase;
+     /* Ubah teks menjadi uppercase */
+ }
 
-.navbar-nav .nav-item .nav-link {
-    font-size: 1.1rem; /* Atur ukuran font link */
-    margin-right: 20px; /* Spasi antar link */
-    color: #000000 !important; /* Warna default link */
-    transition: color 0.3s ease; /* Transisi untuk hover */
-}
+ .navbar-brand:hover {
+     color: #004080;
+     /* Warna saat hover */
+ }
 
-.navbar-nav .nav-item .nav-link:hover {
-    color: #0056b3; /* Warna saat hover */
-}
+ .navbar-nav .nav-item .nav-link {
+     font-size: 1.1rem;
+     /* Atur ukuran font link */
+     margin-right: 20px;
+     /* Spasi antar link */
+     color: #000000 !important;
+     /* Warna default link */
+     transition: color 0.3s ease;
+     /* Transisi untuk hover */
+ }
 
-/* Dropdown menu styling */
-.navbar-nav .dropdown-menu {
-    background-color: #f8f9fa; /* Warna background dropdown */
-    border-radius: 5px; /* Sedikit lengkungan pada sudut */
-}
+ .navbar-nav .nav-item .nav-link:hover {
+     color: #0056b3;
+     /* Warna saat hover */
+ }
 
-.navbar-nav .dropdown-item {
-    color: #000000 !important; /* Warna item dropdown */
-}
+ /* Dropdown menu styling */
+ .navbar-nav .dropdown-menu {
+     background-color: #f8f9fa;
+     /* Warna background dropdown */
+     border-radius: 5px;
+     /* Sedikit lengkungan pada sudut */
+ }
 
-.navbar-nav .dropdown-item:hover {
-    background-color: #e9ecef; /* Background item saat hover */
-    color: #0056b3; /* Warna teks saat hover */
-}
+ .navbar-nav .dropdown-item {
+     color: #000000 !important;
+     /* Warna item dropdown */
+ }
 
-/* Untuk tampilan mobile */
-.navbar-toggler {
-    border-color: #0056b3; /* Warna garis toggle pada mobile */
-}
+ .navbar-nav .dropdown-item:hover {
+     background-color: #e9ecef;
+     /* Background item saat hover */
+     color: #0056b3;
+     /* Warna teks saat hover */
+ }
 
-.navbar-toggler-icon {
-    background-color: #0056b3; /* Warna icon toggle */
-}
+ /* Untuk tampilan mobile */
+ .navbar-toggler {
+     border-color: #0056b3;
+     /* Warna garis toggle pada mobile */
+ }
 
-/* Margin kiri otomatis untuk align menu ke kanan */
-.ml-auto {
-    margin-left: auto;
-}
+ .navbar-toggler-icon {
+     background-color: #0056b3;
+     /* Warna icon toggle */
+ }
 
-/* assets/css/style.css */
-.navbar-nav .nav-link {
-    color: #007bff; /* Warna default link */
-}
+ /* Margin kiri otomatis untuk align menu ke kanan */
+ .ml-auto {
+     margin-left: auto;
+ }
 
-.navbar-nav .nav-link:hover {
-    color: #0056b3; /* Warna saat hover */
-}
+ /* assets/css/style.css */
+ .navbar-nav .nav-link {
+     color: #007bff;
+     /* Warna default link */
+ }
+
+ .navbar-nav .nav-link:hover {
+     color: #0056b3;
+     /* Warna saat hover */
+ }
+
+ .mt-1 {
+     margin-top: 1rem !important;
+ }
+
+ .about {
+     border-radius: 5px;
+     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+     background-color: #0056b3;
+     /* Ganti dengan path gambar */
+     background-size: cover;
+     /* Memastikan gambar menutupi seluruh area */
+     background-position: center;
+     /* Menjaga gambar tetap di tengah */
+     color: white;
+     /* Jika teksnya tidak terlihat, ubah warnanya */
+     padding: 20px 20px;
+     /* Padding untuk ruang yang konsisten di dalam about*/
+     text-align: left;
+
+     height: auto;
+     /* Agar teks selalu berada di tengah */
+ }
+
+ /* Media queries untuk membuat elemen lebih responsif */
+ @media (max-width: 1200px) {
+     h2.display-4 {
+         font-size: 2.5rem;
+     }
+ }
+
+ @media (max-width: 992px) {
+     h2.display-4 {
+         font-size: 2rem;
+     }
+
+     .about {
+         padding: 40px 15px;
+     }
+ }
+
+ @media (max-width: 768px) {
+     h2.display-4 {
+         font-size: 1.8rem;
+     }
+
+     .about {
+         padding: 30px 10px;
+         background-size: cover;
+         /* Gambar tetap menyesuaikan */
+     }
+ }
+
+ @media (max-width: 576px) {
+     h2.display-4 {
+         font-size: 1.5rem;
+     }
+
+     .about {
+         padding: 20px 5px;
+     }
+ }

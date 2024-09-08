@@ -2,10 +2,18 @@
 arahkan seluruh button ke halaman yang akan di tuju
 pada halaman header.php dan content.php.
 
-# randi (UI/UX)  service.php dan shope.php
+# randi (UI/UX)  service.php dan shope.php 
 buat halaman shop.php untuk jual laptop
 pastikan tidak keluar dari konsep (pewarnaan pada tampilan),
 yang sudah ada yaitu index.php
+
+
+# Hadi (BackEnd) repair.php
+buat form Order dengan nama file ServiceOrder.php untuk inputan ke database.
+pelajari dan Implementasikan, QUERY INSERT dan gunakan form yang sudah di buat.
+
+deadline keseluruhan Team 10 September 2024.
+
 
 # rendy (UI/UX and BackEnd) invoice.php
 setelah invoice dan kebutuhanya selesai lanjutkan untuk membuat databsenya
@@ -13,8 +21,22 @@ dengan nama databae (binus) sesuaikan atribute dengan invoice yang sudah di buat
 pelajari dan Implementasikan, QUERY INSERT Manual melalui PHPMyAdmin atau CMD (mariaDB).
 pelajari dan Implementasikan, QUERY READ dengan bahas pemprograman PHP untuk kebutuhan halaman invoice.php.
 
-# Hadi (BackEnd) repair.php
-buat form Order dengan nama file ServiceOrder.php untuk inputan ke database.
-pelajari dan Implementasikan, QUERY INSERT dan gunakan form yang sudah di buat.
+database untuk Bagian column nomor antrian akan terrefresh setiap harinya (1x24), contohnya :
+aplikasi
+- sistem absensi
+- sistem quota
 
-deadline keseluruhan Team 10 September 2024.
+format kode :
+- IN=(invoice) DO=(kode) 11=(TANGGAL) 001=(NOMOR URUT) => INDO11001 s/d INDO11100  jika yang terpilih content Design 
+- IN=(invoice) WO=(kode) 11=(TANGGAL) 001=(NOMOR URUT) => INWO11001 s/d INWO11100 jika yang terpilih content Website
+
+invoice = jangka panjang
+nomor antrian = 1x24 jam ganti
+
+databse untuk Bagian column nomor invoice akan mengawali huruf terdepan dari content order yang terpilih oleh custommer
+kode tersebut akan terus bertambah dengan auto increment contoh :
+
+- (DO001 hingga DO099) design
+- (WO001 hingga WO099) website 
+
+deadline keseluruhan Team 13 September 2024.
