@@ -8,9 +8,22 @@ pastikan tidak keluar dari konsep (pewarnaan pada tampilan),
 yang sudah ada yaitu index.php
 
 
-# Hadi (BackEnd) repair.php
+# Hadi (FrontEnd, BackEnd) repair.php (Tahap 1)
 buat form Order dengan nama file ServiceOrder.php untuk inputan ke database.
 pelajari dan Implementasikan, QUERY INSERT dan gunakan form yang sudah di buat.
+
+# Hadi (FrontEnd, BackEnd) repair.php (Tahap 2)
+
+buat form Order dengan nama file ServiceOrder.php untuk inputan ke database.
+pelajari dan Implementasikan, QUERY INSERT dan gunakan form yang sudah di buat.
+
+FrontEnd repair.php [complate]. namun Tolong ikuti revisi di bawah ini :
+
+revisi tampilan :
+form input berisi kebutuhan custommer yang ada dimenu jasa pada file README.md
+radius pada card terlalu banyak cukup gunakan 2px atau 5px saja
+form input jenis barang layanan yang di pilih : laptop, komputer, CPU dan latop.
+
 
 deadline keseluruhan Team 10 September 2024.
 
