@@ -3,8 +3,13 @@ arahkan seluruh button ke halaman yang akan di tuju
 pada halaman header.php dan content.php.
 
 # nisa (FrontEnd) index.php (tapah 2)
+pada menu dropdown masih memiliki kekurangan untuk content secound laptop/shop.
 pindahkan content sosial media (ig,youtube,tiktok, wa dan wa saluran)
 ke content Abaout us Tempatkan di sebelah kanan dan atur tampilan nya agar menarik.
+
+# nisa (FrontEnd) index.php (tahap 3)
+membuatkan tampilan content Contact
+dan finishing keseluruhan UX yang ada pada semua halaman.
 
 # randi (UI/UX)  service.php dan shope.php 
 buat halaman shop.php untuk jual laptop
