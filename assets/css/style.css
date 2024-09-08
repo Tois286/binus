@@ -57,16 +57,6 @@ h2.display-4 {
     .jumbotron {
         padding: 40px 15px;
     }
-
-    .container-form {
-        flex-direction: column; /* Mengubah layout menjadi kolom */
-        align-items: center;
-    }
-
-    .form-container, .info-text {
-        width: 100%; /* Lebar penuh di layar 992px */
-        margin-bottom: 20px;
-    }
 }
 
 @media (max-width: 768px) {
@@ -79,16 +69,6 @@ h2.display-4 {
         background-size: cover;
         /* Gambar tetap menyesuaikan */
     }
-
-    .container-form {
-        flex-direction: column; /* Mengubah layout menjadi kolom */
-        align-items: center;
-    }
-
-    .form-container, .info-text {
-        width: 90%; /* Lebar 90% di layar 768px */
-        margin-bottom: 20px;
-    }
 }
 
 @media (max-width: 576px) {
@@ -99,21 +79,6 @@ h2.display-4 {
     .jumbotron {
         padding: 20px 5px;
     }
-
-    .container-form {
-        flex-direction: column; /* Mengubah layout menjadi kolom */
-        align-items: center;
-    }
-
-    .form-container, .info-text {
-        width: 100%; /* Lebar penuh di layar kecil */
-        margin-bottom: 15px;
-    }
-
-    .info-text h2 {
-        font-size: 1.2rem;
-    }
-
 }
 
 /* Styling umum untuk header */
