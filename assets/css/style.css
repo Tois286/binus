@@ -57,6 +57,16 @@ h2.display-4 {
     .jumbotron {
         padding: 40px 15px;
     }
+
+    .container-form {
+        flex-direction: column; /* Mengubah layout menjadi kolom */
+        align-items: center;
+    }
+
+    .form-container, .info-text {
+        width: 100%; /* Lebar penuh di layar 992px */
+        margin-bottom: 20px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -69,6 +79,16 @@ h2.display-4 {
         background-size: cover;
         /* Gambar tetap menyesuaikan */
     }
+
+    .container-form {
+        flex-direction: column; /* Mengubah layout menjadi kolom */
+        align-items: center;
+    }
+
+    .form-container, .info-text {
+        width: 90%; /* Lebar 90% di layar 768px */
+        margin-bottom: 20px;
+    }
 }
 
 @media (max-width: 576px) {
@@ -79,6 +99,21 @@ h2.display-4 {
     .jumbotron {
         padding: 20px 5px;
     }
+
+    .container-form {
+        flex-direction: column; /* Mengubah layout menjadi kolom */
+        align-items: center;
+    }
+
+    .form-container, .info-text {
+        width: 100%; /* Lebar penuh di layar kecil */
+        margin-bottom: 15px;
+    }
+
+    .info-text h2 {
+        font-size: 1.2rem;
+    }
+
 }
 
 /* Styling umum untuk header */
@@ -173,66 +208,85 @@ header {
     box-sizing: border-box;
 }
 
-  .form-container {
+.container-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 0 20px;
+}
+
+.form-container, .info-text {
     background: #fff;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
-    width: 100%;
+    width: 48%;
+    margin-bottom: 20px;
+}
+
+.form-container {
     max-width: 500px;
-    overflow: hidden;
-    position: relative;
-    margin: 50px;
-  }
-  
-  .form-title {
+}
+
+.info-text {
+    max-width: 600px;
+}
+
+.form-title {
     text-align: center;
     margin-bottom: 20px;
-  }
-  
-  .contact-form {
+}
+
+.contact-form {
     display: flex;
     flex-direction: column;
-  }
-  
-  .form-label {
+}
+
+.form-label {
     margin-bottom: 5px;
-  }
-  
-  .form-input, .form-textarea {
+}
+
+.form-input, .form-textarea {
     margin-bottom: 15px;
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 4px;
-  }
-  
-  .form-textarea {
+}
+
+.form-textarea {
     resize: vertical;
-  }
-  
-  .form-button {
+}
+
+.form-button {
     padding: 10px;
     border: none;
     background-color: #007bff;
     color: #fff;
     border-radius: 4px;
     cursor: pointer;
-  }
-  
-  .form-button:hover {
+}
+
+.form-button:hover {
     background-color: #0056b3;
-  }
+}
 
-  .contact-text {
-    position: absolute; /* Position text container within slide */
-    bottom: 10px; /* Adjust as needed */
-    left: 10px; /* Adjust as needed */
-    right: 10px; /* Adjust as needed */
-    overflow: hidden; /* Hide overflow text */
-  }
+.info-text h2 {
+    margin-top: 0;
+}
 
-  .text-contact{
-    white-space: nowrap; /* Prevent text from wrapping to the next line */
-    overflow: hidden; /* Hide overflow text */
-    text-overflow: ellipsis; /* Show ellipsis (...) if text overflows */
-  }
+.info-text p {
+    margin: 5px 0;
+}
+
+.info-text a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.info-text a:hover {
+    text-decoration: underline;
+}
