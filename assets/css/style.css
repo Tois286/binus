@@ -290,3 +290,46 @@ header {
 .info-text a:hover {
     text-decoration: underline;
 }
+
+/* Media Query untuk Tablet Lebih Besar (max-width: 992px) */
+@media screen and (max-width: 992px) {
+    .container-form {
+        flex-direction: column; /* Mengubah layout menjadi kolom */
+        align-items: center;
+    }
+
+    .form-container, .info-text {
+        width: 100%; /* Lebar penuh di layar 992px */
+        margin-bottom: 20px;
+    }
+}
+
+/* Media Query untuk Tablet Kecil (max-width: 768px) */
+@media screen and (max-width: 768px) {
+    .container-form {
+        flex-direction: column; /* Mengubah layout menjadi kolom */
+        align-items: center;
+    }
+
+    .form-container, .info-text {
+        width: 90%; /* Lebar 90% di layar 768px */
+        margin-bottom: 20px;
+    }
+}
+
+/* Media Query untuk Smartphone (max-width: 576px) */
+@media screen and (max-width: 576px) {
+    .container-form {
+        flex-direction: column; /* Mengubah layout menjadi kolom */
+        align-items: center;
+    }
+
+    .form-container, .info-text {
+        width: 100%; /* Lebar penuh di layar kecil */
+        margin-bottom: 15px;
+    }
+
+    .info-text h2 {
+        font-size: 1.2rem;
+    }
+}
