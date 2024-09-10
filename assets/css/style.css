@@ -168,69 +168,91 @@
      /* Warna default link */
  }
 
- .navbar-nav .nav-link:hover {
-     color: #0056b3;
-     /* Warna saat hover */
- }
+.navbar-nav .nav-link:hover {
+    color: #0056b3; /* Warna saat hover */
+}
 
- .mt-1 {
-     margin-top: 1rem !important;
- }
+.slideshow {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+    width: 300px; /* Set width to 300px */
+    height: 300px; /* Set height to 300px */
+    overflow: hidden;
+    position: relative;
+    margin: 50px auto;
+  }
+ 
+.slides {
+    min-width: 100%;
+    height: 100%; /* Ensure each slide takes full height of container */
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    box-sizing: border-box;
+}
 
- .about {
-     border-radius: 5px;
-     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
-     background-color: #0056b3;
-     /* Ganti dengan path gambar */
-     background-size: cover;
-     /* Memastikan gambar menutupi seluruh area */
-     background-position: center;
-     /* Menjaga gambar tetap di tengah */
-     color: white;
-     /* Jika teksnya tidak terlihat, ubah warnanya */
-     padding: 20px 20px;
-     /* Padding untuk ruang yang konsisten di dalam about*/
-     text-align: left;
+  .form-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 500px;
+    overflow: hidden;
+    position: relative;
+    margin: 50px;
+  }
+  
+  .form-title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-label {
+    margin-bottom: 5px;
+  }
+  
+  .form-input, .form-textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .form-textarea {
+    resize: vertical;
+  }
+  
+  .form-button {
+    padding: 10px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .form-button:hover {
+    background-color: #0056b3;
+  }
 
-     height: auto;
-     /* Agar teks selalu berada di tengah */
- }
+  .contact-text {
+    position: absolute; /* Position text container within slide */
+    bottom: 10px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
+    right: 10px; /* Adjust as needed */
+    overflow: hidden; /* Hide overflow text */
+  }
 
- /* Media queries untuk membuat elemen lebih responsif */
- @media (max-width: 1200px) {
-     h2.display-4 {
-         font-size: 2.5rem;
-     }
- }
-
- @media (max-width: 992px) {
-     h2.display-4 {
-         font-size: 2rem;
-     }
-
-     .about {
-         padding: 40px 15px;
-     }
- }
-
- @media (max-width: 768px) {
-     h2.display-4 {
-         font-size: 1.8rem;
-     }
-
-     .about {
-         padding: 30px 10px;
-         background-size: cover;
-         /* Gambar tetap menyesuaikan */
-     }
- }
-
- @media (max-width: 576px) {
-     h2.display-4 {
-         font-size: 1.5rem;
-     }
-
-     .about {
-         padding: 20px 5px;
-     }
- }
+  .text-contact{
+    white-space: nowrap; /* Prevent text from wrapping to the next line */
+    overflow: hidden; /* Hide overflow text */
+    text-overflow: ellipsis; /* Show ellipsis (...) if text overflows */
+  }
