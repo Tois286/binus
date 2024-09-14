@@ -1,5 +1,8 @@
 <!-- <img class="brand" src="../assets/binus/IMG-20240902-WA0017.jpg" alt="head img"> -->
 <!-- INVOICE  -->
+<?php include '../config/config.php' ?>
+
+
 <link rel="stylesheet" href="../assets/css/style-invoice.css">
 
 <div class="container">
