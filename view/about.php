@@ -47,8 +47,18 @@
                 </div>
                 <div class="col-md-4">
                     <div class="card-location">
-                        <div class="text-center">
+                        <div class="text-left">
                             <h4>Tentang binus</h4>
+                            <p>Binus adalah perusahaan yang bergerak di bidang teknologi dan desain, berfokus pada layanan service laptop, pengembangan website, penjualan laptop, dan desain grafis</p>
+                            <h4>VISI</h4>
+                            <p>Menjadi perusahaan terdepan dalam menyediakan layanan teknologi dan desain yang inovatif, serta menjadi mitra terpercaya bagi individu dan bisnis dalam menghadapi era digital</p>
+                            <h4>MISI</h4>
+                            <ul>
+                                <li>Memberikan pelayanan terbaik dalam perbaikan dan perawatan perangkat laptop</li>
+                                <li>Menyediakan laptop berkualitas dengan harga kompetitif untuk berbagai kebutuhan</li>
+                                <li>Mengembangkan website profesional yang responsif, modern, dan fungsional</li>
+                                <li>Menciptakan desain grafis kreatif yang membantu memperkuat identitas brand pelanggan</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
