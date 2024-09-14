@@ -36,10 +36,10 @@
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="view/about.php">About Us</a>
+                    <a class="nav-link" href="#about">About Us</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="view/contact.php">Contact</a>
+                    <a class="nav-link" href="#contact">Contact</a>
                 </li>
             </ul>
         </div>
