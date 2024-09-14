@@ -32,13 +32,14 @@
                         <li><a class="dropdown-item" href="view/repair.php">Service Laptop</a></li>
                         <li><a class="dropdown-item" href="view/web.php">Jasa Design Web</a></li>
                         <li><a class="dropdown-item" href="view/design.php">Jasa Design</a></li>
+                        <li><a class="dropdown-item" href="view/shop.php">Jual Laptop</a></li>
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#about">About Us</a>
+                    <a class="nav-link" href="view/about.php">About Us</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
+                    <a class="nav-link" href="view/contact.php">Contact</a>
                 </li>
             </ul>
         </div>
