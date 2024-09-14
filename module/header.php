@@ -29,9 +29,9 @@
                         Products
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="productsDropdown">
-                        <li><a class="dropdown-item" href="#">Service Laptop</a></li>
-                        <li><a class="dropdown-item" href="#">Jasa Design Web</a></li>
-                        <li><a class="dropdown-item" href="#">Jasa Design</a></li>
+                        <li><a class="dropdown-item" href="view/repair.php">Service Laptop</a></li>
+                        <li><a class="dropdown-item" href="view/web.php">Jasa Design Web</a></li>
+                        <li><a class="dropdown-item" href="view/design.php">Jasa Design</a></li>
                     </ul>
                 </li>
                 <li class="nav-item">
